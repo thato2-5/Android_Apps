@@ -32,19 +32,11 @@ Registry:
 #### Installation Steps:
 1. Clone the repository from GitHub:
    ```
-   git clone https://github.com/yourusername/[repo-name].git
+   git clone https://github.com/thato2-5/Android_Apps.git
    ```
 2. Open the project in Android Studio.
 3. Ensure you have the latest Android SDK installed in Android Studio.
 4. Build and run the app on an emulator or physical device.
-
-### License:
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
-
-### Third-Party Libraries:
-- **Library 1:** [Name] - [Description/Brief Usage].
-  ([Link to Library Documentation])
-- **...**
 
 ### Usage:
 1. After cloning and opening the project in Android Studio, sync the project with Gradle files.
