@@ -51,7 +51,7 @@ Registry:
   ![Image](https://github.com/thato2-5/Android_Apps/blob/Test/plant03.png)
 
 - **Screenshot 2:** [Third Form].
-  ![Image](https://github.com/thato2-5/Android_Apps/blob/main/plant04.png)
+  ![Image](https://github.com/thato2-5/Android_Apps/blob/Test/plant04.png)
   
 - **...**
 - For a visual overview, check out our demo video: [Link to Video].
