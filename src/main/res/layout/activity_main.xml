@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contactPerson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="139dp"
+                android:layout_height="138dp"
+                app:srcCompat="@drawable/fhs_logo" />
+
+            <com.google.android.material.navigation.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/plantInspectionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:clickable="true"
+                    app:srcCompat="@android:drawable/ic_input_add" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/technicalInstallationButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    app:srcCompat="@android:drawable/ic_input_add" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/exhaustInspectionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:clickable="true"
+                    app:srcCompat="@android:drawable/ic_input_add" />
+            </com.google.android.material.navigation.NavigationView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="FHS Plant Inspection Survey Form"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/customerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Customer Name:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/siteVisited"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Site Visited:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/ContactPersonTextEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Contact Person Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/inspectionAssistant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Inspection Assistant Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/equipmentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of equipment" />
+
+            <EditText
+                android:id="@+id/plantNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Plant Number Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/plantMake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Plant Make Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/plantModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Plant Model Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/serialNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Serial Number Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/plantKms_Hrs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Plant Kms / Hrs Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/engineMake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Engine Make Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/engineModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Engine Model Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/engineSerialNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Engine Serial Number Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/wetFiltrationSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:text="Wet Filtration Section:" />
+
+            <TextView
+                android:id="@+id/fuelSystem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fuel System"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/primaryFuelFilterPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Primary Fuel Filter Part Number Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/primaryFuelFilterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Primary Fuel Filter" />
+
+            <EditText
+                android:id="@+id/commentsOnFuelFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Fuel Filter Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/secondaryFuelFilterPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Secondary Fuel Filter Part Number Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/fuelWaterSeparatorPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Fuel Water Part Number Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/fuelWaterSeparatorButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Fuel Water Separator" />
+
+            <EditText
+                android:id="@+id/commentsOnFuelWaterSeparator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Fuel Water Separator Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/lubeSystem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lube System"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/oilFilterPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Oil Filter Part Number Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/oilFilterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Oil Filter" />
+
+            <EditText
+                android:id="@+id/commentsOnOilFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Oil Filter Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/bypassOilFilterPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Bypass Oil Filter Part Number Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/bypassOilFilterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Bypass Oil Filter" />
+
+            <EditText
+                android:id="@+id/commentsOnBypassOilFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Bypass Oil Filter Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/hydraulicSystem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hydraulic System"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hydraulicFilterPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Hydraulic Filter Part Number Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/hydraulicFilterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Hydraulic Filter" />
+
+            <EditText
+                android:id="@+id/commentOnHydraulicFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Hydraulic Filter Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/powertrain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Powertrain"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/transmissionFilterPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Transmission Filter Part Number Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/coolingSystem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cooling System"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/coolantFiltersFittedToEqupiment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Coolant Filters Fitted To Equipment Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/otherFiltration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other Filtration"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/breatherFiltersApplicableText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breather Filters Applicable:" />
+
+            <RadioGroup
+                android:id="@+id/breatherFiltersApplicable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/yesRadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/noRadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/airDryerPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Air Dryer Part Number Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/AirDryerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Air Dryer Filter" />
+
+            <EditText
+                android:id="@+id/commentsOnAirDryer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments on Air Dryer Filter Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/operatorsCabin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operators Cabin"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/airFiltrationSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Air Filtration Section"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/airClearnerModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Air Cleaner Model Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/numberOfAirClearnerUnits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Number of Air Cleaner Units Hers:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/photoOfAirCleanerUnitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Air Cleaner Arrangement" />
+
+            <EditText
+                android:id="@+id/primaryElementPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Primary Element Part Number Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/primaryElementDateCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Primary Element Date Code Here:"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/primaryAirCleanerElementButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Primary Air Cleaner Element" />
+
+            <EditText
+                android:id="@+id/coomentsOnPrimaryElement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Primary Element Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/safetyElementPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Safety Element Part Number Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/safetyElementDateCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Safety Element Date Code Here:"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/photoOfSafteyElementButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo Of Safety Air Cleaner Element" />
+
+            <EditText
+                android:id="@+id/commentsOnSafetyEquipment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Safety Element:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/photoOfAirCleanerOutletButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo Of Air Cleaner Outlet" />
+
+            <EditText
+                android:id="@+id/commentsOnAirCleanerOutlet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Air Cleaner Outlet Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/cleanAirDuctingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo Of Clean Air Ducting" />
+
+            <EditText
+                android:id="@+id/commentsOnCleanAirDucting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments on Clean Air Ducting Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/restrictionIndicatorsFitted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restriction Indicators Fitted ?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/restrictionYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/restrictionNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/restrictionIndicatorPartNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Restriction Indicator Part Number Here:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/restrictionIndicatorValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Restriction Indicator Value Here:"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/restrictionIndicatorButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo of Restriction Indicator" />
+
+            <EditText
+                android:id="@+id/commentsOnRestrictionIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Restriction Indicator Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/vacuatorValves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacuator Valves" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/vacuatorValvesYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/vacuatorValvesNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/conditionOfVacuatorValves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Condition of Vacuator Valves Here:" />
+
+            <TextView
+                android:id="@+id/VacuatorPhotoIfApplicable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacuator photo required ? " />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/vacuatorYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/vacuatorNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/otherObservations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other Observations:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/otherObservationsApplicable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other Observations Applicable:" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/observationYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/observationNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/captureOtherObservationPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capture Other Observation Photo ?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/captureObservationPhotoYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/captureObservationPhotoNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/commentsOnOtherObservation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Comments On Other Observation Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/exhaustSystem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exhaust_System:"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/exhaustInspectionApplicable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exhaust Inspection Applicable:" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/exhaustInspectionYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/exhaustInspectionNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/generalComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Enter General Comments Here:"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/emailReportTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Email Report To Here:"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/documentComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For your attention,\nFHS has conducted a Technical Inspection on the equpiment at your site.\nPlease see attached documents for a copy of the detailed report."
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Submit"
+                android:textAlignment="viewStart" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
