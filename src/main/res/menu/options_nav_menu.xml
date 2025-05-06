@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="@string/title_plantInspection" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:title="@string/title_ExhaustInspection" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:title="@string/title_technicalInstallation" />
+
+    <item
+        android:id="@+id/navigation_birth_certificates"
+        android:title="@string/title_birth_certificates" />"
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="@string/title_settings" />
+
+</menu>

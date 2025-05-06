@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">navDoForms</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_plantInspection">Plant Inspection</string>
+    <string name="title_ExhaustInspection">Exhaust Inspection</string>
+    <string name="title_technicalInstallation">Technical Installation</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="complete_form">Complete Form</string>
+    <string name="incomplete_form">Incomplete Form</string>
+    <string name="critical_form">Critical Form</string>
+    <string name="saved_form">Saved Form</string>
+    <string name="synch_form">Synchronized Form</string>
+    <string name="notification_title">New Notification</string>
+    <string name="notification_message">You have a new message. Tap to view details.</string>
+    <string name="notification_time">2 min ago</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="open">Open</string>
+    <string name="app_icon_desc">App Icon</string>
+    <string name="survey_icon_description">Survey Icon</string>
+    <string name="survey_title_placeholder">Survey Title</string>
+    <string name="survey_description_placeholder">Survey Description</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_birth_certificates">Birth Certificates</string>
+    <string name="customer_prompt">Select a Customer</string>
+    <string name="inspection_assistant_prompt">Select Inspection Assistant</string>
+    <string name="air_cleaner_models_prompt">Select Air Cleaner Model</string>
+    <string name="air_cleaner_units_prompt">Select Number Of Air Cleaner Units</string>
+    <string-array name="customer_names">
+        <item>Moolmans</item>
+        <item>Stefanutii Stocks</item>
+        <item>Trollope Mining Services</item>
+        <item>Zizwe Concor</item>
+        <item>WBHO</item>
+        <item>BLC</item>
+        <item>Blyvoor Gold</item>
+        <item>Fraser Alexander</item>
+        <item>Isambane Mining</item>
+        <item>Inala Mining</item>
+        <item>B&amp;E International</item>
+        <item>Lomeza Mining</item>
+        <item>Sandton Plant</item>
+        <item>Zolimax</item>
+        <item>South 32</item>
+        <item>Anglo American</item>
+        <item>4 Arrows</item>
+        <item>Barnes Fencing</item>
+        <item>Black Royalty Minerals</item>
+        <item>Scaw Metals</item>
+        <item>Geo Civ Group</item>
+        <item>Plantcor Mining</item>
+        <item>Murray &amp; Dickson</item>
+        <item>Chilwavhusika Colliery</item>
+        <item>New Customer</item>
+    </string-array>
+    <string-array name="inspected_by_names">
+        <item>Leon Breedt (Snr)</item>
+        <item>Leon Breedt (Jnr)</item>
+        <item>Rodger Marshall</item>
+        <item>Frans van der Linde</item>
+        <item>Stefan Welding</item>
+        <item>Daey Engelbrecht</item>
+        <item>Nicolas Yedwa</item>
+        <item>Alex Soutar</item>
+        <item>Storm Walters</item>
+        <item>Bertus Nienaber</item>
+        <item>Llewellyn Keel</item>
+    </string-array>
+    <string-array name="air_cleaner_models">
+        <item>FPG</item>
+        <item>FPG - 04</item>
+        <item>FPG - 05</item>
+        <item>FPG - 06</item>
+        <item>FPG - 07</item>
+        <item>FPG - 08</item>
+        <item>FPG - 09</item>
+        <item>FPG - 10</item>
+        <item>ECC</item>
+        <item>ECC - 04</item>
+        <item>ECC - 05</item>
+        <item>ECC - 06</item>
+        <item>ECC - 08</item>
+        <item>ECC - 10</item>
+        <item>ECC - 12</item>
+        <item>FRG - 10</item>
+        <item>FRG - 11</item>
+        <item>FRG - 13</item>
+        <item>FRG - 15</item>
+        <item>FRG - 18</item>
+        <item>FTG - 11</item>
+        <item>FTG - 13</item>
+        <item>FTG - 15</item>
+        <item>FTG - 18</item>
+        <item>FVG - 14</item>
+        <item>FVG - 16</item>
+        <item>FHG - 06</item>
+        <item>FHG - 08</item>
+        <item>FHG - 09</item>
+        <item>FHG - 10</item>
+        <item>FHG - 12</item>
+        <item>FHG - 14</item>
+        <item>FHG - 16</item>
+        <item>STB - 12</item>
+        <item>STB - 16</item>
+        <item>STG - 12</item>
+        <item>STG - 14</item>
+        <item>STG - 16</item>
+        <item>SRG - 20</item>
+        <item>SRG - 29</item>
+        <item>SSG - 16</item>
+        <item>SSG - 20</item>
+        <item>SSG - 29</item>
+        <item>PSD - 08</item>
+        <item>PSD - 09</item>
+        <item>PSD - 10</item>
+        <item>PSD - 12</item>
+        <item>PSD - 14</item>
+        <item>Mann &amp; Hummel</item>
+        <item>Fleetguard</item>
+        <item>OEM</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="air_cleaner_units">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Eight</item>
+    </string-array>
+</resources>
