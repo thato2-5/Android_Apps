@@ -45,13 +45,13 @@ Registry:
 
 #### Screenshots/Video Demo:
 - **Screenshot 1:** [First Form].
-  ![Image](https://github.com/thato2-5/Flask_Web_Apps/blob/Android_Apps/plant_inspection_mobile_app.png)
+  ![Image](https://github.com/thato2-5/Android_Apps/blob/main/plant_inspection_mobile_app.png)
 
 - **Screenshot 2:** [Second Form].
-  ![Image](https://github.com/thato2-5/Flask_Web_Apps/blob/Android_Apps/exhaust_inspection_mobile.png)
+  ![Image](https://github.com/thato2-5/Android_Apps/blob/main/exhaust_inspection_mobile.png)
 
 - **Screenshot 2:** [Third Form].
-  ![Image](https://github.com/thato2-5/Flask_Web_Apps/blob/Android_Apps/technical_installation_mobile.png)
+  ![Image](https://github.com/thato2-5/Android_Apps/blob/main/technical_installation_mobile.png)
   
 - **...**
 - For a visual overview, check out our demo video: [Link to Video].
