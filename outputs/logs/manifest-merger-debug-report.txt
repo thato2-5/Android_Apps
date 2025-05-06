@@ -1,0 +1,523 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:2:1-59:12
+MERGED from [androidx.databinding:viewbinding:8.8.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\f0204d8dcfe13f9271da4fc0ad735e05\transformed\viewbinding-8.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\54b2e2e251c872a6e58187ecc0671a42\transformed\navigation-common-2.8.9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\900449a8cd600db1db4554c6089dd249\transformed\navigation-common-ktx-2.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\ea1ee0caef7a9da8b54a714aceda92cf\transformed\navigation-runtime-2.8.9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\7aeeb19a16f53258e0c9f55d203ba96a\transformed\navigation-runtime-ktx-2.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\712e89aea98b1ebeab4ab48e67b97ae8\transformed\navigation-fragment-2.8.9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\fed2ce27f75f31d930916257fe9a1107\transformed\navigation-fragment-ktx-2.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\e1bdfba98aa747f1521ffc4473dea941\transformed\navigation-ui-ktx-2.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\ad4e51d0c60a672cb30b8cca941137c3\transformed\navigation-ui-2.8.9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c07826c59e8f15ebfdcd714b84b28a2e\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\b8eab069150fb53a799b9259fadb66a5\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\d83918396ee2114a1140862810db6bfb\transformed\camera-view-1.2.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\1d3d34eedf09fdcb44eb6d617427f9f1\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\ff5989406be3760c25c39b7fd4983759\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\4783c025fff5a31847cc313dc411c2c2\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\0c7a3d1669724bf1374b9333724249fd\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\3fb5c2b3183a5a00e80bc28678d8cbf7\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\243b37c10ef2e4a612e487e90cc143e2\transformed\activity-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\362349865be93fc47655e3c2d5d8f329\transformed\activity-1.10.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:17:1-34:12
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\7e3fbca9a47a852cc74381a07eda3f51\transformed\camera-lifecycle-1.2.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0efc1bffe5bb9cca8ece8e4f6b2086c\transformed\camera-video-1.2.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\04f56c123c40b42148f41c79c5d0d618\transformed\camera-core-1.2.2\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\affd042d6159cf92b51c5f0cdfe9de14\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\cd569e5654367b6cd70d768adc618a4c\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\a824a494202fb1ac1d4d836b8d4fca0f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\a62e77717d888b020ae5c9a57dca654d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\77a084c78275c392d3e340362169cd7e\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\8b2c4ffe12dc3421005708c1984d0300\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\94114af829bd5cc1e33e34907bc30e0b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\ca3e691d2d5820cbe935c7fc3dffd40b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\41ce28fd94d830127b4b48ed618f6dc2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\9a49ab550a86500d114519216683a5ce\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\a76a42ea965b6c19a8011551941b6549\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7d943dbc490df1d926e7f4f093ab1fdb\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\cfea743906342560b7f7872ff5e13e83\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7b7d400b1e5ce97796b25e91cb2f3f75\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\21b16fb7a4d2fb8c5d83c34f041c0231\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\9037c4918f000e7388749aae0a804a8f\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\10a6a08ac2ff8b0d5c5fad5853f71435\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\2484cf610a8c082bb4f9516ea96dae97\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\32303b13b5bdeb4c51323a063d7cfc8d\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\c598f4921f6d31bf025e84783f3e656f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\7f6c18f76e7ff07d2a76430bdc495f9a\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\903e52903f729e46d562a75646a0ad62\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\930f6d03f3e72791c5ccdc9fe98ab361\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\b7f2d2817d21c0a68efb4d137f9e310c\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\a0f99894b2f11144bd03bc452e1cd260\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\b0864a8c4b3c2510c97a361cceefdf87\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\dda58e26c0739ae7d5b9ce0be9535ac8\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\55abba586edeaab3610c12aff1e5842d\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\d4e93a74ed21a97a40629c481eb97790\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\e7a2309c9cd0179695e6615febb60ed8\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\e2cf8c08df17a56336c228fc6cfc0eb8\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\5830990c3e1a3992cbe7a9830a6b73e9\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\e205e60cbd629b8785d1a85f98ceadbb\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\b972df8e27c9a98573e433362765feea\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\b55817e352912dc0148bdb49df42c32e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\9f245cb00ad9764e88c1aab574c3963b\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\e31ff2c077dc5f00e70705f70b79812f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7313103f59ad3cfc324eb231f39d757a\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\9438283680a390bc8c3c401339d8225a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\939111219707763d5ad2309b8251f60b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3cfcd7501665c3fc108d0acbd8bfd0d5\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\a1807e239ef3d5c5dfe11085990153a7\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\19dc151b9b348134795fae696c4c0aa9\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\92957eb5ba027f60793a455c546635a2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\17ce8d2d1c941bf3b76caaf40d60bbf4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\92d731d8b76bcdb146269363fc49fc20\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\55a1eff0d8775210e8d567901670bbbd\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:5:19-61
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:11:5-57:19
+INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:11:5-57:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c07826c59e8f15ebfdcd714b84b28a2e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c07826c59e8f15ebfdcd714b84b28a2e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\b8eab069150fb53a799b9259fadb66a5\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\b8eab069150fb53a799b9259fadb66a5\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\04f56c123c40b42148f41c79c5d0d618\transformed\camera-core-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\04f56c123c40b42148f41c79c5d0d618\transformed\camera-core-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\e31ff2c077dc5f00e70705f70b79812f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\e31ff2c077dc5f00e70705f70b79812f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\939111219707763d5ad2309b8251f60b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\939111219707763d5ad2309b8251f60b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:14:9-54
+	android:roundIcon
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:17:9-54
+	tools:targetApi
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:19:9-48
+	android:dataExtractionRules
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:13:9-65
+activity#com.example.navdoforms.BirthCertificates
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:22:13-46
+activity#com.example.navdoforms.SettingsActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:25:13-45
+activity#com.example.navdoforms.HomeActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:28:13-41
+activity#com.example.navdoforms.DashboardActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:31:13-46
+activity#com.example.navdoforms.NotificationActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:34:13-49
+activity#com.example.navdoforms.CameraActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:37:13-43
+activity#com.example.navdoforms.ThirdActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:39:9-42:60
+	android:label
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:42:13-57
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:40:13-42
+activity#com.example.navdoforms.SecondActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:43:9-46:61
+	android:label
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:46:13-58
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:44:13-43
+activity#com.example.navdoforms.MainActivity
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:47:9-56:20
+	android:label
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:50:13-45
+	android:exported
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:48:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml:54:27-74
+uses-sdk
+INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.8.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\f0204d8dcfe13f9271da4fc0ad735e05\transformed\viewbinding-8.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.8.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\f0204d8dcfe13f9271da4fc0ad735e05\transformed\viewbinding-8.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\54b2e2e251c872a6e58187ecc0671a42\transformed\navigation-common-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\54b2e2e251c872a6e58187ecc0671a42\transformed\navigation-common-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\900449a8cd600db1db4554c6089dd249\transformed\navigation-common-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\900449a8cd600db1db4554c6089dd249\transformed\navigation-common-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\ea1ee0caef7a9da8b54a714aceda92cf\transformed\navigation-runtime-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\ea1ee0caef7a9da8b54a714aceda92cf\transformed\navigation-runtime-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\7aeeb19a16f53258e0c9f55d203ba96a\transformed\navigation-runtime-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\7aeeb19a16f53258e0c9f55d203ba96a\transformed\navigation-runtime-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\712e89aea98b1ebeab4ab48e67b97ae8\transformed\navigation-fragment-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\712e89aea98b1ebeab4ab48e67b97ae8\transformed\navigation-fragment-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\fed2ce27f75f31d930916257fe9a1107\transformed\navigation-fragment-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\fed2ce27f75f31d930916257fe9a1107\transformed\navigation-fragment-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\e1bdfba98aa747f1521ffc4473dea941\transformed\navigation-ui-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\e1bdfba98aa747f1521ffc4473dea941\transformed\navigation-ui-ktx-2.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\ad4e51d0c60a672cb30b8cca941137c3\transformed\navigation-ui-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.9] C:\Users\thato\.gradle\caches\8.10.2\transforms\ad4e51d0c60a672cb30b8cca941137c3\transformed\navigation-ui-2.8.9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c07826c59e8f15ebfdcd714b84b28a2e\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c07826c59e8f15ebfdcd714b84b28a2e\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\b8eab069150fb53a799b9259fadb66a5\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\b8eab069150fb53a799b9259fadb66a5\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\d83918396ee2114a1140862810db6bfb\transformed\camera-view-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\d83918396ee2114a1140862810db6bfb\transformed\camera-view-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\1d3d34eedf09fdcb44eb6d617427f9f1\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\1d3d34eedf09fdcb44eb6d617427f9f1\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\ff5989406be3760c25c39b7fd4983759\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\ff5989406be3760c25c39b7fd4983759\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\4783c025fff5a31847cc313dc411c2c2\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\4783c025fff5a31847cc313dc411c2c2\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\0c7a3d1669724bf1374b9333724249fd\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\0c7a3d1669724bf1374b9333724249fd\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\3fb5c2b3183a5a00e80bc28678d8cbf7\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\3fb5c2b3183a5a00e80bc28678d8cbf7\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\243b37c10ef2e4a612e487e90cc143e2\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\243b37c10ef2e4a612e487e90cc143e2\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\362349865be93fc47655e3c2d5d8f329\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\362349865be93fc47655e3c2d5d8f329\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\7e3fbca9a47a852cc74381a07eda3f51\transformed\camera-lifecycle-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\7e3fbca9a47a852cc74381a07eda3f51\transformed\camera-lifecycle-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0efc1bffe5bb9cca8ece8e4f6b2086c\transformed\camera-video-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0efc1bffe5bb9cca8ece8e4f6b2086c\transformed\camera-video-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\04f56c123c40b42148f41c79c5d0d618\transformed\camera-core-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\04f56c123c40b42148f41c79c5d0d618\transformed\camera-core-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\affd042d6159cf92b51c5f0cdfe9de14\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\affd042d6159cf92b51c5f0cdfe9de14\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\cd569e5654367b6cd70d768adc618a4c\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\cd569e5654367b6cd70d768adc618a4c\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\a824a494202fb1ac1d4d836b8d4fca0f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\a824a494202fb1ac1d4d836b8d4fca0f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\a62e77717d888b020ae5c9a57dca654d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\a62e77717d888b020ae5c9a57dca654d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\77a084c78275c392d3e340362169cd7e\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\77a084c78275c392d3e340362169cd7e\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\8b2c4ffe12dc3421005708c1984d0300\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\8b2c4ffe12dc3421005708c1984d0300\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\94114af829bd5cc1e33e34907bc30e0b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\94114af829bd5cc1e33e34907bc30e0b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\ca3e691d2d5820cbe935c7fc3dffd40b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\ca3e691d2d5820cbe935c7fc3dffd40b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\41ce28fd94d830127b4b48ed618f6dc2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\41ce28fd94d830127b4b48ed618f6dc2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\9a49ab550a86500d114519216683a5ce\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\9a49ab550a86500d114519216683a5ce\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\a76a42ea965b6c19a8011551941b6549\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\a76a42ea965b6c19a8011551941b6549\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7d943dbc490df1d926e7f4f093ab1fdb\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7d943dbc490df1d926e7f4f093ab1fdb\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\cfea743906342560b7f7872ff5e13e83\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\cfea743906342560b7f7872ff5e13e83\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7b7d400b1e5ce97796b25e91cb2f3f75\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7b7d400b1e5ce97796b25e91cb2f3f75\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\21b16fb7a4d2fb8c5d83c34f041c0231\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\21b16fb7a4d2fb8c5d83c34f041c0231\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\9037c4918f000e7388749aae0a804a8f\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\9037c4918f000e7388749aae0a804a8f\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\10a6a08ac2ff8b0d5c5fad5853f71435\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\10a6a08ac2ff8b0d5c5fad5853f71435\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\2484cf610a8c082bb4f9516ea96dae97\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\2484cf610a8c082bb4f9516ea96dae97\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\32303b13b5bdeb4c51323a063d7cfc8d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\32303b13b5bdeb4c51323a063d7cfc8d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\c598f4921f6d31bf025e84783f3e656f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\c598f4921f6d31bf025e84783f3e656f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\7f6c18f76e7ff07d2a76430bdc495f9a\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\7f6c18f76e7ff07d2a76430bdc495f9a\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\903e52903f729e46d562a75646a0ad62\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\903e52903f729e46d562a75646a0ad62\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\930f6d03f3e72791c5ccdc9fe98ab361\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\930f6d03f3e72791c5ccdc9fe98ab361\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\b7f2d2817d21c0a68efb4d137f9e310c\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\b7f2d2817d21c0a68efb4d137f9e310c\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\a0f99894b2f11144bd03bc452e1cd260\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\a0f99894b2f11144bd03bc452e1cd260\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\b0864a8c4b3c2510c97a361cceefdf87\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\b0864a8c4b3c2510c97a361cceefdf87\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\dda58e26c0739ae7d5b9ce0be9535ac8\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\dda58e26c0739ae7d5b9ce0be9535ac8\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\55abba586edeaab3610c12aff1e5842d\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\55abba586edeaab3610c12aff1e5842d\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\d4e93a74ed21a97a40629c481eb97790\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\d4e93a74ed21a97a40629c481eb97790\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\e7a2309c9cd0179695e6615febb60ed8\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\e7a2309c9cd0179695e6615febb60ed8\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\e2cf8c08df17a56336c228fc6cfc0eb8\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\e2cf8c08df17a56336c228fc6cfc0eb8\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\5830990c3e1a3992cbe7a9830a6b73e9\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\5830990c3e1a3992cbe7a9830a6b73e9\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\e205e60cbd629b8785d1a85f98ceadbb\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\e205e60cbd629b8785d1a85f98ceadbb\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\b972df8e27c9a98573e433362765feea\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\b972df8e27c9a98573e433362765feea\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\b55817e352912dc0148bdb49df42c32e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\b55817e352912dc0148bdb49df42c32e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\9f245cb00ad9764e88c1aab574c3963b\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\9f245cb00ad9764e88c1aab574c3963b\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\e31ff2c077dc5f00e70705f70b79812f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\e31ff2c077dc5f00e70705f70b79812f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7313103f59ad3cfc324eb231f39d757a\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\7313103f59ad3cfc324eb231f39d757a\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\9438283680a390bc8c3c401339d8225a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\9438283680a390bc8c3c401339d8225a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\939111219707763d5ad2309b8251f60b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\939111219707763d5ad2309b8251f60b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3cfcd7501665c3fc108d0acbd8bfd0d5\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3cfcd7501665c3fc108d0acbd8bfd0d5\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\a1807e239ef3d5c5dfe11085990153a7\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\a1807e239ef3d5c5dfe11085990153a7\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\19dc151b9b348134795fae696c4c0aa9\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\thato\.gradle\caches\8.10.2\transforms\19dc151b9b348134795fae696c4c0aa9\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\92957eb5ba027f60793a455c546635a2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\92957eb5ba027f60793a455c546635a2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\17ce8d2d1c941bf3b76caaf40d60bbf4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\17ce8d2d1c941bf3b76caaf40d60bbf4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\92d731d8b76bcdb146269363fc49fc20\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\92d731d8b76bcdb146269363fc49fc20\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\55a1eff0d8775210e8d567901670bbbd\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\55a1eff0d8775210e8d567901670bbbd\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\thato\AndroidStudioProjects\navDoForms\app\src\main\AndroidManifest.xml
+queries
+ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:22:5-26:15
+intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:23:9-25:18
+action#androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:24:13-86
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:24:21-83
+uses-library#androidx.camera.extensions.impl
+ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:29:9-31:40
+	android:required
+		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\2bf4083fdbd629f4704619c61de0b05c\transformed\camera-extensions-1.2.2\AndroidManifest.xml:30:13-59
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\04f56c123c40b42148f41c79c5d0d618\transformed\camera-core-1.2.2\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\04f56c123c40b42148f41c79c5d0d618\transformed\camera-core-1.2.2\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\thato\.gradle\caches\8.10.2\transforms\df4ea31e37585eced9663b29f099daad\transformed\camera-camera2-1.2.2\AndroidManifest.xml:31:17-103
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\e31ff2c077dc5f00e70705f70b79812f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thato\.gradle\caches\8.10.2\transforms\e31ff2c077dc5f00e70705f70b79812f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\c0cd72de469feb92f6b75a785e82b038\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\3b6467596f7947838489d3f7ebe5ad29\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.example.navdoforms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.navdoforms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\380d8aebe32d7ab5798bbdcded398d8c\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thato\.gradle\caches\8.10.2\transforms\6da3c271e1022357c01047f82a972251\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thato\.gradle\caches\8.10.2\transforms\0a6c4eac92e9edbb8c2298b372126dfb\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
